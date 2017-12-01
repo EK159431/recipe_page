@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*==================================
+Navigation Bar
+==================================== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* =================================
+Removes the bullets and the margins
+and padding from the list
+==================================== */
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e60000;
+}
+
+.active {
+    background-color: #990000;
+}
+/* =================================
+Add an "active" class to the current
+link to let the user know which page
+he/she is on:
+==================================== */
+
+
+/* =================================
+Header Image
+==================================== */
+
+body {
+  background-color: #bcb2b1;
+}
+
+.headerImages {
+ /* Full height */
+ height: 600px;
+ width: 100%;
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.headerBottom {
+  width: 100%;
+  height: 20px;
+}
+
+table {
+    align: center;
+    border-collapse: collapse;
+    width: 35%;
+    display: inline;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+tr{background-color: #f2f2f2}
+
+th {
+    background-color: #333;
+    color: white;
+}
+div{
+text-align: center;
+}
+
+.instructions{
+  text-align: left;
+}
+
+.foodPicture{
+  height: auto;
+  width: 68%;
+}
+
+.jump{
+  text-align: center;
+  display:inline;
+  margin: 0 25px;
+}
+
+.linkColor{
+  color: #990000;
+}
